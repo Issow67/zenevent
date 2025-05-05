@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZenEvent</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ZenEvent</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="packs.html">Packs</a>
+      <a href="composer.html">Composer</a>
+      <a href="prestataires.html">Prestataires</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h2>Ton enterrement de vie de jeune fille bohème</h2>
+      <button onclick="location.href='packs.html'">Voir le Pack Bohème</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

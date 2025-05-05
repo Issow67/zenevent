@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZenEvent - Composer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ZenEvent</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="packs.html">Packs</a>
+      <a href="composer.html">Composer</a>
+      <a href="prestataires.html">Prestataires</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Composer mon EVJF à la carte</h2>
+    <form id="form-composer">
+      <label for="lieu">Lieu :</label>
+      <select id="lieu">
+        <option>Appartement bohème</option>
+        <option>Salle des fêtes</option>
+      </select>
+
+      <label for="traiteur">Traiteur :</label>
+      <select id="traiteur">
+        <option>Buffet brunch bio</option>
+        <option>Cocktail chic</option>
+      </select>
+
+      <label for="theme">Thème :</label>
+      <select id="theme">
+        <option>Bohème</option>
+        <option>Glamour</option>
+      </select>
+
+      <button type="submit">Estimer le prix</button>
+    </form>
+    <div id="resultat-compo"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

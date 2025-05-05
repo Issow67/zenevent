@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZenEvent - Packs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ZenEvent</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="packs.html">Packs</a>
+      <a href="composer.html">Composer</a>
+      <a href="prestataires.html">Prestataires</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Packs tout inclus</h2>
+    <div class="pack">
+      <h3>Pack Bohème</h3>
+      <p><strong>Lieu :</strong> Appartement cosy décoré bohème (plantes, guirlandes, coussins)</p>
+      <p><strong>Traiteur :</strong> Buffet brunch bio (jus frais, viennoiseries, fruits, planches apéritives)</p>
+      <p><strong>Thème :</strong> Bohème chic (attrape-rêves, tons pastel, macramé)</p>
+      <p><strong>Activité :</strong> Atelier DIY (bracelets, couronnes de fleurs)</p>
+      <label for="nombre-personnes">Nombre de personnes :</label>
+      <input type="number" id="nombre-personnes" min="1" value="1"/>
+      <p id="prix-estime">Prix estimé : 89 €</p>
+      <button onclick="ajouterDevis()">Ajouter au devis</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
